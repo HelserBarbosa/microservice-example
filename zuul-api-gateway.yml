@@ -20,5 +20,5 @@ zuul:
       url: http://localhost:9097/animal
     cuidador:
       path: /services/cuidador/**
-      url: http://localhost:9097/cuidador
+      url: http://localhost:9098/cuidador
     
