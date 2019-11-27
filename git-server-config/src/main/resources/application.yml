@@ -1,5 +1,10 @@
 server:
   port: 9080
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
   
 spring:
   cloud:
@@ -7,3 +12,5 @@ spring:
       server:
         git:
           uri: https://github.com/HelserBarbosa/microservice-example
+          
+          
